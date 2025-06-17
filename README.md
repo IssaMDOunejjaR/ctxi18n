@@ -110,7 +110,7 @@ l := ctxi18n.Locale(ctx)
 fmt.Println(l.T("welcome.title"))
 ```
 
-There is no preferred way on how to use this library, so please use whatever best first your application and coding style. Sometimes it makes sense to pass in the context in every call, other times the code can be shorter and more concise by extracting it.
+There is no preferred way on how to use this library, so please use whatever fits best your application and coding style. Sometimes it makes sense to pass in the context in every call, other times the code can be shorter and more concise by extracting it.
 
 ### Defaults
 
